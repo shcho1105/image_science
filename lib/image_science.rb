@@ -16,44 +16,44 @@ class ImageScience
   ##
   # The top-level image loader opens +path+ and then yields the image.
 
-  def self.with_image(path) # :yields: image
-  end
+  #def self.with_image(path) # :yields: image
+  #end
 
   ##
   # The top-level image loader, opens an image from the string +data+ and then yields the image.
 
-  def self.with_image_from_memory(data) # :yields: image
-  end
+  #def self.with_image_from_memory(data) # :yields: image
+  #end
 
   ##
   # Crops an image to +left+, +top+, +right+, and +bottom+ and then
   # yields the new image.
 
-  def with_crop(left, top, right, bottom) # :yields: image
-  end
+  #def with_crop(left, top, right, bottom) # :yields: image
+  #end
 
   ##
   # Returns the width of the image, in pixels.
 
-  def width; end
+  #def width; end
 
   ##
   # Returns the height of the image, in pixels.
 
-  def height; end
+  #def height; end
 
   ##
   # Saves the image out to +path+. Changing the file extension will
   # convert the file type to the appropriate format.
 
-  def save(path); end
+  #def save(path); end
 
   ##
   # Resizes the image to +width+ and +height+ using a cubic-bspline
   # filter and yields the new image.
 
-  def resize(width, height) # :yields: image
-  end
+  #def resize(width, height) # :yields: image
+  #end
 
   ##
   # Creates a proportional thumbnail of the image scaled so its longest

@@ -1,3 +1,8 @@
+= Forking
+
+* Make ImageScience work with Rails 3.
+* Fix dependency
+
 = ImageScience
 
 * http://seattlerb.rubyforge.org/ImageScience.html
@@ -31,12 +36,12 @@ For more information including build steps, see http://seattlerb.rubyforge.org/
 
 == REQUIREMENTS:
 
-* FreeImage
+* RubyInline
 * ImageScience
 
 == INSTALL:
 
-* Download and install FreeImage. See notes at url above.
+* sudo gem install RubyInline -v '~>3.11.1'
 * sudo gem install -y image_science
 * see http://seattlerb.rubyforge.org/ImageScience.html for more info.
 
